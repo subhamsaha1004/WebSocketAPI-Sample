@@ -1,0 +1,86 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Kelly Slab', cursive;
+	font-weight: 400;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 { color: #3498db; margin: 10px 0; font-family: 'Amaranth', sans-serif; font-weight: 400; }
+h2 { font-size: 1.4em; margin-top: 0; }
+h3 { font-size: 1.4em }
+.floatL { float: left; }
+.floatR { float: right; }
+.clear { clear: both;; line-height: 0; font-size: 0; display: block; }
+p { line-height: 18px; color: #333; margin: 5px 0; font-size: 1em; }
+a { text-decoration: none; color: #038823; cursor: pointer; }
+a:hover { text-decoration: underline; color: #ee1821; }
+.alignCenter { text-align: center; }
+
+/**** App specific styles ***/
+h1 { text-align: center; font-size: 1.5em; margin-bottom: 20px; }
+#page { max-width: 960px; margin: 20px auto; }
+#content { padding: 10px; background: #f4f4f4; border-style: solid; border-color: #3498db; border-width: 3px 0 0; }
+
+#status { font-size: 0.9rem; margin-bottom: 1rem; }
+
+.open { color: #07D107; }
+
+.closed { color: red; }
+
+ul { list-style: none; margin: 0; padding: 1px 0 0; font-size: 0.95rem; border-bottom: 1px solid #2ecc71; border-top: 1px solid #2ecc71; background: #fff; }
+ul li { padding: 0.5rem 0.75rem; border-bottom: 1px solid #fff; }
+ul li span { display: inline-block; width: 90px; font-weight: bold; color: #05813A; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; }
+
+.sent { background-color: #AAFC84; }
+.received { background-color: #F8EEA0; }
+#message-form { margin-top: 1.5rem; }
+
+textarea { width: 100%; padding: 0.5rem; font-size: 1rem; border: 1px solid #D9D9D9; box-sizing: border-box; border-radius: 3px; box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1); min-height: 100px; margin-bottom: 1rem; }
+
+button { background: #909090; padding: 7px 25px; color: #fff; text-shadow: 1px 1px #000; border:0; font-size: 16px; }
+button[type="submit"] { background: #3498db; }
+button:hover { opacity: 0.75; cursor: pointer; }
